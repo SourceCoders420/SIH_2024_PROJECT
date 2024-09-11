@@ -1,4 +1,4 @@
-<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -183,7 +183,9 @@
     <script src="script.js"></script>
 
 </body>
-</html><style>* {
+</html>
+<style> 
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -384,7 +386,10 @@ input[type="submit"]:hover {
     font-size: 12px;
     margin-left: 20px;
     font-weight: bold;
-}</style><script>function toggleMenu() {
+}
+</style>
+<script>
+    function toggleMenu() {
     var menu = document.getElementById('menu');
     if (menu.classList.contains('hidden')) {
         menu.classList.remove('hidden');
@@ -429,4 +434,5 @@ function checkPasswordMatch() {
     } else {
         message.textContent = "";
     }
-}</script>
+}
+</script>
